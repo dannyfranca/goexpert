@@ -3,7 +3,7 @@ package main
 type MyNumber int
 
 type Number interface {
-	~int | ~float64
+	~int | ~float64 // ~ allows you to use the type as a constraint. ~int means that the type can be a custom one, but must be an int.
 }
 
 func Soma[T Number](m map[string]T) T {
