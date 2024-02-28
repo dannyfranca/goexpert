@@ -15,7 +15,7 @@ func main() {
 		fmt.Printf("O salario de %s é %d\n", nome, salario)
 	}
 
-	for _, salario := range salarios {
+	for _, salario := range salarios { // _ is the blank identifier, will be ignored. The compiler complains about unused vars.
 		fmt.Printf("O salario é %d\n", salario)
 	}
 }
