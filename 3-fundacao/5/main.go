@@ -19,6 +19,7 @@ func main() {
 	meuArray[0] = 10
 	meuArray[1] = 20
 	meuArray[2] = 30
+	// meuArray[3] = 40 // error: index out of range [3] with length 3
 
 	for i, v := range meuArray {
 		fmt.Printf("O valor do indice é %d e o valor é %d\n", i, v) // %d is the format for integers
