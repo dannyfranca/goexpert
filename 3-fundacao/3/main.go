@@ -2,7 +2,7 @@ package main
 
 const a = "Hello, World!"
 
-type ID int
+type ID int // type creation
 
 var (
 	b bool    = true
