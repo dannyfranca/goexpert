@@ -21,6 +21,6 @@ func main() {
 	meuArray[2] = 30
 
 	for i, v := range meuArray {
-		fmt.Printf("O valor do indice é %d e o valor é %d\n", i, v)
+		fmt.Printf("O valor do indice é %d e o valor é %d\n", i, v) // %d is the format for integers
 	}
 }
