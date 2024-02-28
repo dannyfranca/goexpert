@@ -11,7 +11,7 @@ func main() {
 	// sal1 := map[string]int{}
 	// sal1["Wesley"] = 1000
 
-	for nome, salario := range salarios {
+	for nome, salario := range salarios { // range is a loop that iterates over a map.
 		fmt.Printf("O salario de %s é %d\n", nome, salario)
 	}
 
