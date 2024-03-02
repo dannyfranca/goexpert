@@ -6,7 +6,7 @@ import (
 )
 
 type conf struct {
-	DBDriver      string `mapstructure:"DB_DRIVER"`
+	DBDriver      string `mapstructure:"DB_DRIVER"` // annotation to map the env variable to the struct field
 	DBHost        string `mapstructure:"DB_HOST"`
 	DBPort        string `mapstructure:"DB_PORT"`
 	DBUser        string `mapstructure:"DB_USER"`
